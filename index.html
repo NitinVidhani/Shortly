@@ -3,9 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./assets/favicon-32x32.png"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Shortly</title>
   </head>
   <body>
-    Hello
+    <!-- Navbar -start -->
+    <nav class="navbar flex">
+      <h1 class="nav-brand">Shortly</h1>
+      <ul class="nav-links bold">
+        <li class="nav-link">Features</li>
+        <li class="nav-link">Pricing</li>
+        <li class="nav-link">Resources</li>
+      </ul>
+      <div class="buttons">
+        <button class="btn btn-login bold">Login</button>
+        <button class="btn btn-signup bold">Sign Up</button>
+      </div>
+    </nav>
+    <!-- Navbar -end -->
+
+    <!-- Hero -start -->
+    <main class="hero">
+      <div class="hero-left">
+        <div class="main-content bold">More than just<br />shorter links</div>
+        <div class="small-content bold">
+          Build your brand's recognition and get detailed <br />
+          insights on how your links are performing
+        </div>
+        <button class="btn bold">Get Started</button>
+      </div>
+      <div class="hero-right">
+        <img src="./assets/illustration-working.svg" alt="" />
+      </div>
+    </main>
+    <!-- Hero -end -->
+
+    <!-- Form -start -->
+    <div class="form-container flex">
+      <form class="flex form" action="">
+        <div class="form-field">
+          <input class="input" type="text" placeholder="Shorten a link here" />
+        </div>
+        <button class="btn-submit" type="submit">Shorten It!</button>
+      </form>
+      <div class="error-message"></div>
+    </div>
+    <!-- Form -end -->
+
+    <!-- Advanced Statistics -start -->
+    <div class="stats flex">
+      <div class="null"></div>
+      <div class="results"></div>
+      <h1 class="stats-head">Advanced Statistics</h1>
+      <div class="stats-text bold">
+        Track how your links are performing across the web with <br />
+        our advanced statistics dashboard
+      </div>
+      <div class="stats-cards flex">
+        <div class="card">
+          <div class="card-icon">
+            <img src="./assets/icon-brand-recognition.svg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Brand Recognition</h3>
+            <div class="card-text">
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links helps instil confidence in your
+              content
+            </div>
+          </div>
+        </div>
+        <div class="card card-second">
+          <div class="card-icon">
+            <img src="./assets/icon-detailed-records.svg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Detailed Records</h3>
+            <div class="card-text">
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links helps instil confidence in your
+              content
+            </div>
+          </div>
+        </div>
+        <div class="card card-last">
+          <div class="card-icon">
+            <img src="./assets/icon-fully-customizable.svg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Fully Customizable</h3>
+            <div class="card-text">
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links helps instil confidence in your
+              content
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- Advanced Statistics -end -->
+
+    <!-- Boost -start -->
+    <section class="boost flex">
+      <h1>Boost your links today</h1>
+      <button class="btn">Get Started</button>
+    </section>
+    <!-- Boost -end -->
+
+    <!-- Footer -start -->
+    <footer class="footer">
+      <h1 class="footer-head">Shortly</h1>
+      <div class="features">
+        <h4>Features</h4>
+        <ul>
+          <li>Link Shortening</li>
+          <li>Branded Links</li>
+          <li>Analytics</li>
+        </ul>
+      </div>
+      <div class="resources">
+        <h4>Resources</h4>
+        <ul>
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <div class="company">
+        <h4>Company</h4>
+        <ul>
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="social flex">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+      </div>
+    </footer>
+    <!-- Footer -end -->
+    <!-- Script -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
